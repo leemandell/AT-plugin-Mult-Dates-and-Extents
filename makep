@@ -1,0 +1,21 @@
+#!/bin/sh
+cp -v plugin.xml out/production/BYUResourceEditor
+
+cd out/production/BYUResourceEditor
+
+#zip -rv BYUResourcePanel.zip . -i \*.class *.xml \*.java
+#cp -v BYUResourcePanel.zip /Users/leemandell/archivistsToolkit/atProject/plugins
+#cp -v BYUResourcePanel.zip /Applications/Archivists\'\ Toolkit\ 2.0/plugins
+
+#zip -rv BYUResourceComponentPanel.zip . -i \*.class *.xml \*.java
+#cp -v BYUResourceComponentPanel.zip /Users/leemandell/archivistsToolkit/atProject/plugins
+#cp -v BYUResourceComponentPanel.zip /Applications/Archivists\'\ Toolkit\ 2.0/plugins
+
+#zip -rv BYUAccessionPanel.zip . -i \*.class *.xml \*.java
+#cp -v BYUAccessionPanel.zip /Users/leemandell/archivistsToolkit/atProject/plugins
+#cp -v BYUAccessionPanel.zip /Applications/Archivists\'\ Toolkit\ 2.0/plugins
+
+zip -rv BYUCustomPanels.zip . -i \*.class *.xml \*.java
+cp -v BYUCustomPanels.zip /Users/leemandell/archivistsToolkit/atProject/plugins
+cp -v BYUCustomPanels.zip /Applications/Archivists\'\ Toolkit\ 2.0/plugins
+cp -v BYUCustomPanels.zip /Users/leemandell/archivistsToolkit/vanilla\ AT\ 2.0/plugins
